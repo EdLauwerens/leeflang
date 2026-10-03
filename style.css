@@ -11,6 +11,8 @@ header.top{display:flex;align-items:center;gap:12px;padding:16px 0}
 header.top img{width:40px;height:40px;border-radius:10px}
 header.top a.brand{font-family:Georgia,serif;font-weight:600;font-size:20px;color:var(--ink);text-decoration:none}
 header.top nav{margin-left:auto;display:flex;gap:18px;font-size:15px}
+header.top nav a{white-space:nowrap}
+@media (max-width:480px){header.top{flex-wrap:wrap;row-gap:6px}header.top nav{margin-left:0;width:100%;gap:16px;font-size:14px}}
 .hero{background:var(--lived);color:var(--on-dark)}
 .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:56px;padding-bottom:56px}
 .hero h1{font-size:clamp(36px,6vw,58px);margin:0 0 10px;color:var(--on-dark)}
