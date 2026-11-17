@@ -20,6 +20,7 @@ header.top nav a{white-space:nowrap}
 .hero img.logo{width:92px;height:92px;border-radius:22px;margin-bottom:18px}
 .hero .phone{justify-self:center;width:min(300px,100%);border-radius:28px;box-shadow:0 20px 50px rgba(0,0,0,.35)}
 .btn{display:inline-block;background:var(--on-dark);color:var(--lived);font-weight:600;padding:14px 22px;border-radius:12px;text-decoration:none}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:0}
 .btn.soon{background:transparent;color:var(--on-dark);border:1.5px solid var(--on-dark-muted);cursor:default}
 .note{font-size:14px;color:var(--on-dark-muted);margin-top:12px}
 section.features .wrap{padding-top:56px;padding-bottom:24px}
